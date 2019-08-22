@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Board from './Board'
-class Game extends React.Component {
 
+export default class Game extends Component {
 	render() {
 		return (
 			<div>
@@ -14,5 +14,3 @@ class Game extends React.Component {
 		)
 	}
 }
-
-export default Game
